@@ -250,7 +250,6 @@ clean:
 	rm -rf objs
 	rm -f *.gcda *.gcno *.gcov
 	rm -f contrib/infback9/*.gcda contrib/infback9/*.gcno contrib/infback9/*.gcov
-	rm -f configure.log
 
 maintainer-clean: distclean
 distclean: clean zconf zconf.h.cmakein docs
